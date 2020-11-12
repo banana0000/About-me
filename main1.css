@@ -1,0 +1,43 @@
+#container { /*container elem definiálása, középre igazítás, margó beállítás*/
+  width: 100vw;
+  margin: 50px auto;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 50px; /*oldal tetejétől a behúzás, hogy szebb legyen*/
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #8b66bc; /*h1 szöveg stílusa*/
+}
+
+#images {
+  width: 300px; /*képméretezés*/
+  height: 375px;
+  margin: 25px auto;
+  overflow: hidden; /*képek egymásra pozíciónálása, behúzás*/
+  position: relative;
+}
+
+#images img {
+  width: 600px; /*méretek megadása*/
+  height: 375px;
+  position: absolute; /*újabb pozícionálás az átfedés miatt*/
+  left: -500px; /*balról hozza az új képet, ezért -*/
+  top: 0;
+  z-index: 1; /*áttűnés efektért felel*/
+  opacity: 0; /*átlátszóság*/
+  transition: all linear 600ms; /* maga a slide effekt, a csúszás*/
+  -o-transition: all linear 600ms;
+  -moz-transition: all linear 600ms;
+  -webkit-transition: all linear 600ms;
+}
+
+#images img:target {
+left: 0; /*kép igazítása, átlátszóság megszüntetése*/
+z-index: 8;
+opacity: 1;
+}
