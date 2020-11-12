@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+
+/* Pozíconálás */
+
+.profile-card {
+  width: 470px;
+  max-width: calc(100vw - 10px);
+}
+
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head, links, div {
+  text-align: center;
+}
+
+.head, .content {
+  width: 80%;
+  margin: 0 auto;
+}
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.profile-image {
+  margin-top: -80px;
+}
+/* Contact links */
+
+.head, .about {
+  margin-bottom: 10%;
+}
+.content {
+  padding: 10%;
+  margin-bottom: 10%
+}
+
+body {
+  background: url('/Assets/Background.JPG')no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 50px;
+  box-shadow: hsla(204, 100%, 50%, .7) 10px 15px 10px;
+}    
+img {
+  padding: 5px;
+  background-color: lightblue;
+  filter: grayscale(5%);
+}
+
+img:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(5%);
+}
+
+span, h2 {
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+.gallery {
+  background-color: lightgreen;
+  color: black;
+}
+.gallery:hover {
+  background-color: lightblue;
+}
+
+
+ul {
+  list-style-type: none; 
+}
+
+li {
+  display: inline;
+}
+
+.links {
+    color: green;
+    padding: 10px;
+}
+
+.social-icon:hover {
+  color: lightgreen;
+}
+.about {
+  text-align: center;
+}
