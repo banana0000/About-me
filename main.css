@@ -52,7 +52,7 @@ img {
 }
 
 body {
-  background: url('/Assets/background.jpg')no-repeat center center fixed;
+  background: url('Assets/background.jpg')no-repeat center center fixed;
   background-size: cover;
   font-family: Arial, sans-serif;
   font-size: 17px;
