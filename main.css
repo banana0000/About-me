@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
-
-
 /* CSS reset */
 
 * {
@@ -14,8 +11,8 @@
 /* Pozíconálás */
 
 .profile-card {
-  width: 470px;
-  max-width: calc(100vw - 10px);
+  width: 410px;
+  max-width: calc(100vw - 20px);
 }
 
 
@@ -39,7 +36,7 @@ img {
   border-radius: 50%;
 }
 .profile-image {
-  margin-top: -80px;
+  margin-top: 80px;
 }
 /* Contact links */
 
@@ -47,8 +44,8 @@ img {
   margin-bottom: 10%;
 }
 .content {
-  padding: 10%;
-  margin-bottom: 10%
+  padding: 0;
+  margin-bottom: 0%;
 }
 
 body {
@@ -75,7 +72,7 @@ img:hover {
   filter: grayscale(5%);
 }
 
-span, h2 {
+span {
   font-size: 15px;
 }
 
@@ -87,6 +84,8 @@ h1 {
 .gallery {
   background-color: lightgreen;
   color: black;
+  padding: 10px;
+  margin: 10px;
 }
 .gallery:hover {
   background-color: lightblue;
@@ -101,10 +100,12 @@ li {
   display: inline;
 }
 
-.links {
-    color: green;
-    padding: 10px;
+
+.social-icon {
+  color: blue;
+  font-size: 20px;
 }
+  
 
 .social-icon:hover {
   color: lightgreen;
@@ -112,3 +113,5 @@ li {
 .about {
   text-align: center;
 }
+
+
