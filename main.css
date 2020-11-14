@@ -86,12 +86,12 @@ h1 {
 }
 
 .gallery {
-  background-color: lightgreen;
+  background-color: green;
   color: black;
   padding: 5px;
 }
 .gallery:hover {
-  background-color: lightblue;
+  background-color: lightgreen;
 }
 
 
@@ -105,7 +105,7 @@ li {
 
 
 .social-icon {
-  color: blue;
+  color: green;
   font-size: 20px;
 }
   
