@@ -35,14 +35,13 @@ body {
   padding: 10px;
 }
 img {
-  width: 110px;
-  height: 110px;
+  width: 150px;
+  height: 120px;
   border-radius: 50%;
 }
 .profile-image {
   margin-top: 10%;
 }
-/* Contact links */
 
 .head, .about {
   margin-bottom: 10px;
@@ -65,8 +64,8 @@ body {
   border-radius: 50px;
 }    
 img {
-  padding: 5px;
-  background-color: lightblue;
+  padding: 4px;
+  background-color: lightgreen;
   filter: grayscale(5%);
 }
 
@@ -86,12 +85,12 @@ h1 {
 }
 
 .gallery {
-  background-color: green;
+  background-color: lightgreen;
   color: black;
   padding: 5px;
 }
 .gallery:hover {
-  background-color: lightgreen;
+  background-color: green;
 }
 
 
