@@ -14,6 +14,11 @@ h1 {
   color: black; 
 }
 
+#image0 {
+  width: 310px; 
+  height: 375px;
+  
+}
 #images {
   width: 310px; 
   height: 375px;

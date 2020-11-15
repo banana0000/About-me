@@ -84,12 +84,12 @@ h1 {
   text-transform: uppercase;
 }
 
-.gallery {
+button {
   background-color: lightgreen;
   color: black;
   padding: 5px;
 }
-.gallery:hover {
+button:hover {
   background-color: green;
 }
 
