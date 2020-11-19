@@ -26,6 +26,7 @@ body {
   text-align: center;
 }
 
+
 .head, .content {
   width: 90%;
   margin: 0 auto;
@@ -39,6 +40,8 @@ img {
   height: 120px;
   border-radius: 50%;
 }
+
+
 .profile-image {
   margin-top: 10%;
 }
@@ -47,15 +50,11 @@ img {
   margin-bottom: 10px;
   padding: 20px;
 }
-.content {
-  padding: 20px;
-  margin-bottom: 20px;
-}
 
 body {
   background: url('Assets/background.jpg')no-repeat center center fixed;
   background-size: cover;
-  font-family: 'Times Neww Roman', sans-serif;
+  font-family: 'Times New Roman', sans-serif;
   font-size: 17px;
 }
 
@@ -66,13 +65,12 @@ body {
 img {
   padding: 4px;
   background-color: lightgreen;
-  filter: grayscale(5%);
 }
 
 img:hover {
   transform: scale(1.2);
   transition: all 0.5s ease-in-out;
-  filter: grayscale(5%);
+  filter: grayscale(3%);
 }
 
 span {
@@ -91,6 +89,7 @@ button {
 }
 button:hover {
   background-color: green;
+  border-radius: 50px;
 }
 
 
@@ -103,9 +102,13 @@ li {
 }
 
 
+.links {
+  padding: 20px;
+}
 .social-icon {
   color: green;
   font-size: 30px;
+  padding: 10px;
 }
   
 
@@ -116,4 +119,28 @@ li {
   text-align: center;
 }
 
+img {
+   float: left;
+}
 
+.container {
+  position: relative;
+}
+.box {
+  position: absolute, fixed;
+  border-collapse: black, 1px solid;
+  border-radius: 50px;
+}
+
+.box {
+  top: 200px;
+  left: 250px;
+}
+
+
+
+
+  
+
+  
+  
