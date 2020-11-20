@@ -13,6 +13,7 @@
 .profile-card {
   width: 410px;
   max-width: calc(100vw - 20px);
+  margin-top: 20px;
 }
 
 
@@ -36,8 +37,8 @@ body {
   padding: 10px;
 }
 img {
-  width: 150px;
-  height: 120px;
+  width: 140px;
+  height: 110px;
   border-radius: 50%;
 }
 
@@ -52,19 +53,21 @@ img {
 }
 
 body {
-  background: url('Assets/background.jpg')no-repeat center center fixed;
+  background: url('Assets/Absztrakt.jpg')no-repeat center center fixed;
   background-size: cover;
   font-family: 'Times New Roman', sans-serif;
   font-size: 17px;
 }
 
 .profile-card {
-  background-color: hsla(0, 0%, 100%, .5);
-  border-radius: 50px;
+  background-color: violet;
+  border-radius: 40px;
+  border: 1px solid;
 }    
+
 img {
   padding: 4px;
-  background-color: lightgreen;
+  background-color: black;
 }
 
 img:hover {
@@ -87,6 +90,7 @@ button {
   color: black;
   padding: 5px;
 }
+
 button:hover {
   background-color: green;
   border-radius: 50px;
@@ -105,6 +109,7 @@ li {
 .links {
   padding: 20px;
 }
+
 .social-icon {
   color: green;
   font-size: 30px;
@@ -115,6 +120,7 @@ li {
 .social-icon:hover {
   color: lightgreen;
 }
+
 .about {
   text-align: center;
 }
@@ -126,6 +132,7 @@ img {
 .container {
   position: relative;
 }
+
 .box {
   position: absolute, fixed;
   border-collapse: black, 1px solid;
