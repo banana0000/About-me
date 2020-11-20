@@ -60,13 +60,13 @@ body {
 }
 
 .profile-card {
-  background-color: violet;
+  background-color: #C8FFC8;
   border-radius: 40px;
   border: 1px solid;
 }    
 
 img {
-  padding: 4px;
+  padding: 2px;
   background-color: black;
 }
 
@@ -96,7 +96,10 @@ button:hover {
   border-radius: 50px;
 }
 
-
+p {
+  text-align: center;
+  padding: 10px;
+}
 ul {
   list-style-type: none; 
 }
@@ -108,7 +111,7 @@ li {
 
 .links {
   padding: 20px;
-}
+  }
 
 .social-icon {
   color: green;
