@@ -11,9 +11,9 @@
 /* Pozíconálás */
 
 .profile-card {
-  width: 410px;
-  max-width: calc(100vw - 20px);
-  margin-top: 20px;
+  width: 25.625rem;
+  max-width: calc(100vw - 1,25rem);
+  margin-top: 1.25rem;
 }
 
 
@@ -34,11 +34,11 @@ body {
 }
 
 .name-headline {
-  padding: 10px;
+  padding: 0.625rem;
 }
 img {
-  width: 140px;
-  height: 110px;
+  width: 8.75rem;
+  height: 6.875rem;
   border-radius: 50%;
 }
 
@@ -48,56 +48,58 @@ img {
 }
 
 .head, .about {
-  margin-bottom: 10px;
-  padding: 20px;
+  margin-bottom: 0.625rem;
+  padding: 1.25rem;
 }
 
 body {
   background: url('Assets/Absztrakt.jpg')no-repeat center center fixed;
   background-size: cover;
   font-family: 'Times New Roman', sans-serif;
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 
 .profile-card {
-  background-color: #C8FFC8;
-  border-radius: 40px;
-  border: 1px solid;
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 30px;
+  border: 0.0625rem solid;
 }    
 
 img {
-  padding: 3px;
+  padding: 0.1875rem;
   background-color: black;
 }
 
 img:hover {
   transform: scale(1.2);
   transition: all 0.5s ease-in-out;
-  filter: grayscale(3%);
+  filter: grayscale(5%);
 }
 
 span {
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 h1 {
-  font-size: 19px;
+  font-size: 1.1875rem;
 }
 
 button {
-  background-color: lightgreen;
+  background-color: deeppink;
   color: black;
-  padding: 5px;
+  padding: 0.3125rem;
 }
 
 button:hover {
-  background-color: green;
-  border-radius: 50px;
+  background-color: lightgreen;
+  border-radius: 2.5rem;
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
 }
 
 p {
   text-align: center;
-  padding: 10px;
+  padding: 0.625rem;
 }
 ul {
   list-style-type: none; 
@@ -109,18 +111,19 @@ li {
 
 
 .links {
-  padding: 20px;
-  }
+  padding: 1.25rem;
+}
 
 a {
   color: green;
-  font-size: 30px;
-  padding: 10px;
+  font-size: 1.875rem;
+  padding: 0.625rem;
 }
   
 
 a:hover {
   color: lightgreen;
+  
 }
 
 .about {
@@ -137,20 +140,20 @@ img {
 
 .box {
   position: absolute;
-  border-collapse: black, 1px solid;
-  border-radius: 50px;
-  top: 170px;
-  left: 200px;
+  border-collapse: black, 0.0625rem solid;
+  border-radius: 2.5rem;
+  top: 10.625rem;
+  left: 13.75rem;
 }
 
 .social-icon1 {
   position: absolute;
-  left: 5px;
+  left: 0.625rem;
 }
 
 .social-icon3 {
   position: absolute;
-  right: 5px;
+  right: 0.625rem;
 }
 
 
