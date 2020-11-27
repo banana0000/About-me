@@ -10,9 +10,10 @@
 
 /* Pozíconálás */
 
+
 .profile-card {
   width: 25.625rem;
-  max-width: calc(100vw - 1,25rem);
+  max-width: calc(100vw - 1.25rem);
   margin-top: 1.25rem;
 }
 
@@ -44,7 +45,7 @@ img {
 
 
 .profile-image {
-  margin-top: 10%;
+  margin-top: 1.625rem;
 }
 
 .head, .about {
@@ -55,7 +56,7 @@ img {
 body {
   background: url('Assets/Absztrakt.jpg')no-repeat center center fixed;
   background-size: cover;
-  font-family: 'Times New Roman', sans-serif;
+  font-family: 'Marriweather', 'serif';
   font-size: 1.0625rem;
 }
 
@@ -116,7 +117,7 @@ li {
 
 a {
   color: green;
-  font-size: 1.875rem;
+  font-size: 1.25rem;
   padding: 0.625rem;
 }
   
@@ -146,14 +147,9 @@ img {
   left: 13.75rem;
 }
 
-.social-icon1 {
+#nav {
   position: absolute;
   left: 0.625rem;
+  top:0.625rem;
 }
-
-.social-icon3 {
-  position: absolute;
-  right: 0.625rem;
-}
-
 
