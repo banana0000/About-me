@@ -55,7 +55,7 @@ img {
 
 body {
   background: url('Assets/Absztrakt.jpg')no-repeat center center fixed;
-  background-size: cover;
+  background-size:contain;
   font-family: 'Marriweather', 'serif';
   font-size: 1.0625rem;
 }
@@ -132,7 +132,7 @@ a:hover {
 }
 
 img {
-   float: none;
+   float: right;
 }
 
 .profile-card {
@@ -153,9 +153,3 @@ img {
   top:0.625rem;
 }
 
-@media (min-width: 768px) {
-  img {
-    float: right;
-    }
-}
-}
