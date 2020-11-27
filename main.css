@@ -7,25 +7,37 @@
   font-size: 100%;
 }
 
-
-/*Compontent styles*/
-
-/*Main Header Styles*/
-.profile-card {
-  width: 25.625rem;
-  max-width: calc(100vw - 1.25rem);
-  margin-top: 1.25rem;
-}
-
-
 body {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Marriweather', 'serif';
+  font-size: 1.125rem;
+  background: url('/Assets/Absztrakt.jpg') no-repeat center center fixed;
+  background-size: cover;
+  }
+
+.profile-card {
+  width: 25.625rem;
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 30px;
+  border: 0.0625rem solid;
+  position: relative;
+  
 }
+
+.profile-image {
+  margin-top: 1.625rem;
+}
+
 .head, links, div {
   text-align: center;
+}
+  
+.head, .about {
+  margin-bottom: 0.625rem;
+  padding: 1.25rem;
 }
 
 
@@ -37,44 +49,22 @@ body {
 .name-headline {
   padding: 0.625rem;
 }
+
+  
 img {
   width: 8.75rem;
   height: 6.875rem;
   border-radius: 50%;
-}
-
-
-.profile-image {
-  margin-top: 1.625rem;
-}
-
-.head, .about {
-  margin-bottom: 0.625rem;
-  padding: 1.25rem;
-}
-
-body {
-  background: url('Assets/Absztrakt.jpg')no-repeat center center fixed;
-  background-size:contain;
-  font-family: 'Marriweather', 'serif';
-  font-size: 1.0625rem;
-}
-
-.profile-card {
-  background-color: hsla(0, 0%, 100%, .5);
-  border-radius: 30px;
-  border: 0.0625rem solid;
-}    
-
-img {
   padding: 0.1875rem;
   background-color: black;
+  float: right;
 }
+
 
 img:hover {
   transform: scale(1.2);
   transition: all 0.5s ease-in-out;
-  filter: grayscale(5%);
+  filter: grayscale(5%)
 }
 
 span {
@@ -85,10 +75,17 @@ h1 {
   font-size: 1.1875rem;
 }
 
+/*Component Styles*/
+
 button {
-  background-color: deeppink;
+  background-color: palevioletred;
   color: black;
   padding: 0.3125rem;
+  border-radius: 2.5rem;
+  top: 10.625rem;
+  left: 13.75rem;
+  position: absolute;
+  border-collapse: black, 0.0625rem solid;
 }
 
 button:hover {
@@ -131,25 +128,23 @@ a:hover {
   text-align: center;
 }
 
-img {
-   float: right;
-}
-
-.profile-card {
-  position: relative;
-}
-
-.box {
-  position: absolute;
-  border-collapse: black, 0.0625rem solid;
-  border-radius: 2.5rem;
-  top: 10.625rem;
-  left: 13.75rem;
-}
-
 #nav {
   position: absolute;
   left: 0.625rem;
   top:0.625rem;
 }
 
+@media (min-width: 768px){
+  body {
+    font-size: 1.1875rem;
+    color: lawngreen;
+}
+}
+  
+  
+  @media (min-width: 1024px){
+  body {
+    font-size: 1.25rem;
+    color: yellow;
+}
+}
