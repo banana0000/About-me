@@ -15,7 +15,7 @@ body {
   align-items: center;
   font-family: 'Marriweather', 'serif';
   font-size: 1.125rem;
-  background: url('/Assets/Absztrakt.jpg') no-repeat center center fixed;
+  background: url('Assets/Absztrakt.jpg') no-repeat center center fixed;
   background-size: cover;
   }
 
