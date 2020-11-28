@@ -18,6 +18,8 @@ body {
   background-size: cover;
   }
 
+/*===  LAYOUTS STYLES  ===*/
+
 .profile-card {
   width: 25.625rem;
   background-color: hsla(0, 0%, 100%, .5);
@@ -75,15 +77,30 @@ h1 {
   font-size: 1.1875rem;
 }
 
+@media (min-width: 768px){
+  body {
+    font-size: 1.1875rem;
+    color: orange;
+}
+}
+
+@media (min-width: 1024px){
+  body {
+    font-size: 1.25rem;
+    color: darkgreen;
+}
+}
+
+
 /*Component Styles*/
 
 button {
-  background-color: palevioletred;
+  background-color: orange;
   color: black;
   padding: 0.3125rem;
   border-radius: 2.5rem;
-  top: 10.625rem;
-  left: 13.75rem;
+  top: 10.875rem;
+  left: 13.9375rem;
   position: absolute;
   border-collapse: black, 0.0625rem solid;
 }
@@ -108,12 +125,13 @@ li {
 }
 
 
-.links {
+.fa {
   padding: 1.25rem;
+  font-size: 1.875rem;
 }
 
 a {
-  color: green;
+  color: orange;
   font-size: 1.25rem;
   padding: 0.625rem;
 }
@@ -134,17 +152,4 @@ a:hover {
   top:0.625rem;
 }
 
-@media (min-width: 768px){
-  body {
-    font-size: 1.1875rem;
-    color: lawngreen;
-}
-}
-  
-  
-  @media (min-width: 1024px){
-  body {
-    font-size: 1.25rem;
-    color: yellow;
-}
-}
+
