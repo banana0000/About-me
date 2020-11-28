@@ -30,20 +30,15 @@ body {
   }
 
 .profile-image {
-  margin-top: 1.625rem;
+  margin-top: 1.25rem;
 }
 
 .head, links, div {
   text-align: center;
 }
   
-.head, .about {;
-  padding: 1.25rem;
-}
-
-
 .head, .content {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -101,7 +96,7 @@ button {
   top: 10.875rem;
   left: 13.9375rem;
   position: absolute;
-  border: 1px solid black;;
+  border: 1px solid black;
 }
 
 button:hover {
@@ -113,7 +108,6 @@ button:hover {
 
 p {
   text-align: center;
-  padding: 0.625rem;
 }
 ul {
   list-style-type: none; 
@@ -125,16 +119,13 @@ li {
 
 
 .fa {
-  padding: 1.25rem;
-  font-size: 1.875rem;
+  font-size: 1.1875rem;
   color: orange;
-  font-size: 2.5rem;
-  padding: 0.625rem;
+  padding: 1.1875rem;
 }
   
 .fa:hover {
   color: lightgreen;
-  
 }
 
 .about {
