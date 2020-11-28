@@ -9,6 +9,7 @@
 
 body {
   height: 100vh;
+  max-width: calc (100vw-0.625rem);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,8 +38,7 @@ body {
   text-align: center;
 }
   
-.head, .about {
-  margin-bottom: 0.625rem;
+.head, .about {;
   padding: 1.25rem;
 }
 
@@ -128,16 +128,12 @@ li {
 .fa {
   padding: 1.25rem;
   font-size: 1.875rem;
-}
-
-a {
   color: orange;
-  font-size: 1.25rem;
+  font-size: 2.5rem;
   padding: 0.625rem;
 }
   
-
-a:hover {
+.fa:hover {
   color: lightgreen;
   
 }
@@ -150,6 +146,13 @@ a:hover {
   position: absolute;
   left: 0.625rem;
   top:0.625rem;
+  color: black;
 }
 
+a {
+  color: green;
+}
 
+a:hover {
+  color: lightgreen;
+}
