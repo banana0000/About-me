@@ -91,10 +91,10 @@ h1 {
 button {
   background-color: orange;
   color: black;
-  padding: 0.3125rem;
+  padding: 0.625rem;
   border-radius: 2.5rem;
-  top: 10.875rem;
-  left: 13.9375rem;
+  top: 240px;
+  left: 270px;
   position: absolute;
   border: 1px solid black;
 }
@@ -119,7 +119,7 @@ li {
 
 
 .fa {
-  font-size: 1.1875rem;
+  font-size: 2.375rem;
   color: orange;
   padding: 1.1875rem;
 }
