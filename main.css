@@ -9,7 +9,7 @@
 
 body {
   height: 100vh;
-  max-width: calc (100vw-0.625rem);
+  max-width: calc(100vw-0.625rem);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,11 +24,10 @@ body {
 .profile-card {
   width: 25.625rem;
   background-color: hsla(0, 0%, 100%, .5);
-  border-radius: 30px;
+  border-radius: 1.875rem;
   border: 0.0625rem solid;
   position: relative;
-  
-}
+  }
 
 .profile-image {
   margin-top: 1.625rem;
@@ -102,7 +101,7 @@ button {
   top: 10.875rem;
   left: 13.9375rem;
   position: absolute;
-  border-collapse: black, 0.0625rem solid;
+  border: 1px solid black;;
 }
 
 button:hover {
