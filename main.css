@@ -73,14 +73,12 @@ h1 {
 
 @media (min-width: 768px){
   body {
-    font-size: 1.1875rem;
-    color: orange;
+    color: brown;
 }
 }
 
 @media (min-width: 1024px){
   body {
-    font-size: 1.25rem;
     color: darkgreen;
 }
 }
