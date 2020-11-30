@@ -78,9 +78,8 @@ h1 {
 }
 
 @media (orientation: landscape) {
-    zoom:50%;
+  zoom:85%!important;
 }
-
 
 @media (min-width: 1024px)and (orientation: landscape) { 
   body {
