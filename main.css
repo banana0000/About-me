@@ -71,21 +71,20 @@ h1 {
   font-size: 1.1875rem;
 }
 
-@media (min-width: 768px)and (orientation: landscape){
+@media (min-width: 768px) and (orientation: landscape) {
   body {
     color: green;
 }
 }
 
 @media (orientation: landscape) {
-  .profil-card {
-    height: 50%;
-}
+    zoom:50%;
 }
 
-@media (min-width: 1024px){ 
+
+@media (min-width: 1024px)and (orientation: landscape) { 
   body {
-    color: orangered;
+    color: orange;
 }
 }
 
