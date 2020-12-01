@@ -71,9 +71,9 @@ h1 {
   font-size: 1.1875rem;
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
+@media (min-width: 768px) and (orientation: landscape) {
   body {
-    color: green;
+    color: darkgreen;
 }
 }
 
@@ -83,12 +83,6 @@ h1 {
     }
 }
 
-@media (max-width: 1024px)and (orientation: landscape) { 
-  body {
-    color: greenyellow;
-}
-}
-
 .btn {
   background-color: orange;
   color: black;
@@ -96,7 +90,7 @@ h1 {
   text-align: center;
   padding: 0.625rem;
   border: 0.0625rem solid transparent;
-  margin-bottom: 0,625rem;
+  margin-bottom: 0.625rem;
   border-radius: 2.5rem;
   top: 15rem;
   left: 16.875rem;
