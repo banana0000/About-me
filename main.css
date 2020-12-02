@@ -78,8 +78,8 @@ h1 {
 }
 
 @media (orientation: landscape) {
-  *{
-      zoom:95% !important;
+  .profile-card, .profile-card>*{
+    zoom:85% !important;
     }
 }
 
