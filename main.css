@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-size: 100%;
 }
-
 body {
   height: 100vh;
   max-width: calc(100vw - 0.625rem);
@@ -28,25 +27,19 @@ body {
   border: 0.0625rem solid;
   position: relative;
   }
-
 .profile-image {
   margin-top: 1.25rem;
 }
-
 .head, links, div {
   text-align: center;
 }
-  
 .head, .content {
   width: 80%;
   margin: 0 auto;
 }
-
 .name-headline {
   padding: 0.625rem;
 }
-
-  
 img {
   width: 8.75rem;
   height: 6.875rem;
@@ -55,34 +48,17 @@ img {
   background-color: black;
   float: right;
 }
-
-
 img:hover {
   transform: scale(1.2);
   transition: all 0.5s ease-in-out;
   filter: grayscale(5%)
 }
-
 span {
   font-size: 0.9375rem;
 }
-
 h1 {
   font-size: 1.1875rem;
 }
-
-@media (min-width: 768px) and (orientation: landscape) {
-  body {
-    color: darkgreen;
-}
-}
-
-@media (orientation: landscape) {
-  .profile-card, .profile-card>*{
-    zoom:85% !important;
-    }
-}
-
 .btn {
   background-color: orange;
   color: black;
@@ -96,50 +72,111 @@ h1 {
   left: 16.875rem;
   position: absolute;
 }
-
 .btn:hover {
   background-color: lightgreen;
   color: black;
   transition: all 0.5s ease-in-out;
 }
-
 p {
   text-align: center;
 }
 ul {
   list-style-type: none; 
 }
-
 li {
   display: inline;
 }
-
-
 .fa {
   font-size: 2.375rem;
   color: orange;
   padding: 1.1875rem;
 }
-  
 .fa:hover {
   color: lightgreen;
 }
-
 .about {
   text-align: center;
 }
-
 #nav {
   position: absolute;
   left: 0.625rem;
   top:0.625rem;
   color: black;
 }
-
 a {
   color: green;
 }
-
 a:hover {
   color: lightgreen;
 }
+
+@media (min-width:412px) and (min-height:869px) {
+  
+}
+@media (min-width:600px) and (min-height:960px) {
+  
+}
+@media (min-width:869px) and (min-height:412px) {
+  
+}
+@media (min-width:960px) and (min-height:600px) {
+  
+}
+@media (min-width:1366px) and (min-height:625px) {
+  body{
+    color:green;
+  }
+}
+
+a{
+  position:relative;
+}
+a:hover{
+  animation:rot 1.5s ease-in-out;
+  display:inline-block;
+}
+@keyframes rot{
+  50%{transform:rotateY(45deg)}
+}
+a:hover::after{
+  content:attr(href);
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:9;
+  color:yellow;
+  background:black;
+  padding:3px;
+  animation:pull 1.5s ease-in-out;
+  font-size:12px;
+  overflow:hidden hidden;
+  border-radius:5px;
+}
+@keyframes pull{
+  0%{height:0;}
+  50%{transform:rotateY(45deg)}
+  100%{height:1rem;}
+}
+
+/*
+@media (min-width: 768px) and (orientation: landscape) {
+  body {
+    color: green;
+  }
+}
+
+@media (orientation: landscape) {
+  .profile-card, .profile-card>*{
+    zoom:65% !important;
+    }
+}
+
+@media (min-width: 1024px)and (orientation: landscape) {
+  body {
+    color: orange;
+  }
+}
+*/
+
+
+
