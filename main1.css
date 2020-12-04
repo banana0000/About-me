@@ -87,5 +87,11 @@ a {
   text-align: center;
 }
 
+@media (min-width:412px) and (orientation:landscape) {
+  .profile-card, .profile-card>*{
+    zoom:95%;
+    }
+}
+
 
 
