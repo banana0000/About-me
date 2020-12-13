@@ -1,13 +1,13 @@
 #container {
   width: 100vw;
-  margin: 0px auto;
+  margin: 0 auto;
   text-align: center;
   background-size: cover;
 }
 
 
 body {
-  height: 100vh;
+  height: 90vh;
   background-color: black;
 }
 
@@ -15,10 +15,10 @@ header {
   margin-bottom: 50px; 
 }
 
-h2 {
+h1 {
   font-size: 24px;
   font-weight: bold;
-  color: lightgreen; 
+  color: orange; 
   text-align: center;
 }
 
@@ -87,11 +87,7 @@ a {
   text-align: center;
 }
 
-@media (min-width:412px) and (orientation:landscape) {
-  .profile-card, .profile-card>*{
-    zoom:95%;
-    }
-}
+
 
 
 
