@@ -63,6 +63,7 @@ h1 {
 .btn {
   background-color: orange;
   color: black;
+  padding:2rem;
   text-decoration: none;
   text-align: center;
   height: 3rem;
