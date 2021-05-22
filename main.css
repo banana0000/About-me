@@ -69,9 +69,7 @@ h1 {
   border: 0.0625rem solid transparent;
   margin-bottom: 0.625rem;
   border-radius: 2.5rem;
-  top: 15rem;
-  left: 16.875rem;
-  position: absolute;
+  margin: 0 auto;
 }
 .btn:hover {
   background-color: orchid;
