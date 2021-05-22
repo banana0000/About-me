@@ -45,7 +45,7 @@ img {
   width: 8.75rem;
   height: 6.875rem;
   border-radius: 50%;
-  border:1px solid orange;
+  border:2px solid orange;
   float: right;
 }
 img:hover {
@@ -65,7 +65,7 @@ h1 {
   padding:2rem;
   text-decoration: none;
   text-align: center;
-  height: 1.5rem;
+  height: 1rem;
   width: 7rem;
   margin-botto: 0.625rem;
   border-radius: 2.5rem;
