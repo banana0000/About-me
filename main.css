@@ -51,7 +51,7 @@ img {
 img:hover {
   transform: scale(1.2);
   transition: all 0.5s ease-in-out;
-  filter: grayscale(5%)
+  filter: grayscale(.5);
 }
 span {
   font-size: 0.9375rem;
@@ -62,7 +62,7 @@ h1 {
 
 .btn {
   background-color: orange;
-  color: black;
+  color: white;
   text-decoration: none;
   text-align: center;
   padding: .5rem;
